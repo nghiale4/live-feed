@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes bgcolor {
+  0% {
+      background-color: #227694
+  }
+
+  100% {
+      background-color: #484572
+  }
+}
+
+body {
+  animation: bgcolor 10s infinite;
+  animation-direction: alternate;
+}
+
+h1 {
+  padding-bottom: 5vh;
+}
