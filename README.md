@@ -1,2 +1,2 @@
-# remind-me
-Web application to send reminders in the future via email or text messages.
+# live-feed
+Full stack application to publish messages anonymously with a live feed.
